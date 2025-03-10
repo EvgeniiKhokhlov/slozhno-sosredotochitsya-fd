@@ -18,67 +18,24 @@
   --text-color-block: #353430;
 }
 
-.theme-light .page {
-  background-color: var(--bg-color, #fff);
-}
-
-.theme-light .header {
-  padding-inline: var(--padding-project);
-}
-
 .theme-light .decorated-element {
   display: none;
 }
 
-.theme-light .decorated-zone::after {
-  border-block-start: 2px solid var(--decorative-element-color);
-  border-inline-end: 2px solid var(--decorative-element-color);
-}
-
-.theme-light .decorated-zone::before {
-  border-block-end: 2px solid var(--decorative-element-color);
-  border-inline-start: 2px solid var(--decorative-element-color);
-}
-
-.theme-light .header__theme-menu-button {
-  color: var(--menu-button-color);
-}
-
-.theme-light .title__text-decoration {
-  text-shadow: 4px 4px 0 var(--text-color-title-shadow);
-}
-
-.theme-light .title-decor {
-  background-color: var(--bg-color-title-block);
-}
-
-.theme-light .content__title {
-  color: var(--text-color-title-content);
-}
-
-.theme-light .content__block-paragraph {
-  color: var(--text-color-block);
-}
-
-.theme-light .content__link {
-  text-shadow: 1.5px 1px 0 var(--text-color-title-shadow);
-}
-
-.theme-light .content__link:focus {
-  border: 1px solid var(--text-color-block);
-}
-
-.theme-light .footer__title {
-  text-shadow: 2px 2px 0 var(--text-color-title-shadow);
-}
-
-.theme-light .footer::after {
-  border-block-start: 2px solid var(--decorative-element-color);
-  border-inline-end: 2px solid var(--decorative-element-color);
-}
-
-.theme-light .footer::before {
-  border-block-end: 2px solid var(--decorative-element-color);
-  border-inline-start: 2px solid var(--decorative-element-color);
+@media (prefers-color-scheme: light) {
+  
+  :root {
+    --bg-color: #fff;
+    --bg-image: url(../images/cover-image-light.png);
+    --decorative-element-color: #353430;
+    --menu-button-color:#353430;
+    --menu-botton-color-hover:rgb(50 49 45 / 0.4);
+    --text-color-title: #FFC2E6;
+    --text-color-title-shadow: #FF8DCB;
+    --text-color-title-content: #FF8DCB;
+    --bg-color-title-block: #FF8DCB;
+    --text-color-title-block: #353430;
+    --text-color-block: #353430;
+  }
 }
 
