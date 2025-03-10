@@ -1,0 +1,29 @@
+{
+  "name": "slozhno-sosredotochitsya-fd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "form": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint **/*.css",
+    "lintfix": "stylelint **/*.css --fix",
+    "checkAll": "npm run check && npm run lint",
+    "fixAll": "npm run form && npm run lintfix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvgeniiKhokhlov/slozhno-sosredotochitsya-fd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvgeniiKhokhlov/slozhno-sosredotochitsya-fd/issues"
+  },
+  "homepage": "https://github.com/EvgeniiKhokhlov/slozhno-sosredotochitsya-fd#readme",
+  "description": "",
+  "dependencies": {
+    "prettier": "^3.5.1",
+    "stylelint": "^16.14.1"
+  }
+}
