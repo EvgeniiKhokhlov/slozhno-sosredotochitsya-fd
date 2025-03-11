@@ -147,6 +147,7 @@ header {
   display: grid;
   margin-block: 40px 10px;
   padding-inline: var(--padding-project);
+  line-height: 23.4px;
 }
 
 .content__section {
@@ -159,7 +160,6 @@ header {
   font-family: var(--font-family-project);
   font-weight: var(--font-weight-bold);
   font-size: var(--text-size-project);
-  line-height: 23.4px;
 }
 
 .content__block-title {
@@ -172,7 +172,6 @@ header {
   font-family: var(--font-family-project);
   font-weight: var(--font-weight-normal);
   font-size: var(--text-size-project);
-  line-height: 23.4px;
 }
 
 .content__link {
