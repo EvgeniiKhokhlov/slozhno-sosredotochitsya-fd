@@ -5,14 +5,14 @@
 */
 
 :root.theme-light {
-  --bg-color: #fff;
+  --bg-color: #FFF1F7;
   --bg-image: url(../images/cover-image-light.png);
   --decorative-element-color: #353430;
   --menu-button-color:#353430;
   --menu-botton-color-hover:rgb(50 49 45 / 0.4);
   --text-color-title: #FFC2E6;
   --text-color-title-shadow: #FF8DCB;
-  --text-color-title-content: #FF8DCB;
+  --text-color-title-content: #353430;
   --bg-color-title-block: #FF8DCB;
   --text-color-title-block: #353430;
   --text-color-block: #353430;
@@ -25,14 +25,14 @@
 @media (prefers-color-scheme: light) {
   
   :root {
-    --bg-color: #fff;
+    --bg-color: #FFF1F7;
     --bg-image: url(../images/cover-image-light.png);
     --decorative-element-color: #353430;
     --menu-button-color:#353430;
     --menu-botton-color-hover:rgb(50 49 45 / 0.4);
     --text-color-title: #FFC2E6;
     --text-color-title-shadow: #FF8DCB;
-    --text-color-title-content: #FF8DCB;
+    --text-color-title-content: #353430;
     --bg-color-title-block: #FF8DCB;
     --text-color-title-block: #353430;
     --text-color-block: #353430;
