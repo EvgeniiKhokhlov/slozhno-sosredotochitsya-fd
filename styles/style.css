@@ -97,7 +97,7 @@ header {
 
 .header__theme-menu-button_active {
   border: 1px solid currentColor;
-  pointer-events:none;
+  pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
@@ -166,7 +166,7 @@ header {
   font-size: var(--text-size-project);
 }
 
-.content__block h4{
+.content__block h4 {
   font-weight: var(--font-weight-normal);
 }
 
@@ -199,8 +199,8 @@ header {
 
 .gallery__title {
   margin-block-end: 10px;
- }
- 
+}
+
 .gallery__cards {
   display: grid;
   row-gap: 10px;
@@ -233,7 +233,7 @@ header {
   }
 
   .header {
-    block-size: max(100vh, 1024px); 
+    block-size: max(100vh, 1024px);
   }
 
   .decorated-zone::after {
@@ -356,7 +356,7 @@ header {
   }
 
   .footer {
-    block-size: max(100vh, 1024px); 
+    block-size: max(100vh, 1024px);
     padding-block-start: 17px;
   }
 
