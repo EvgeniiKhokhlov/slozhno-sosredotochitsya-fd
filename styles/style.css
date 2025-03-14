@@ -49,6 +49,10 @@ header {
   left: 42px;
 }
 
+.theme-auto .decorated-element {
+  display: none;
+}
+
 .decorated-zone::after {
   content: '';
   position: absolute;
@@ -101,7 +105,7 @@ header {
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid currentColor;
+  border: 1px solid var(--menu-botton-color-hover);
 }
 
 .header__theme-menu-button:focus {
