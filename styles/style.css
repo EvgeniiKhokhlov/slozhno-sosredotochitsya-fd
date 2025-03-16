@@ -49,10 +49,6 @@ header {
   left: 42px;
 }
 
-.theme-auto .decorated-element {
-  display: none;
-}
-
 .decorated-zone::after {
   content: '';
   position: absolute;

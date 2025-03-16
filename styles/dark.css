@@ -17,3 +17,7 @@
   --text-color-title-block: #000028;
   --text-color-block: #f1b2ce;
 }
+
+.theme-dark .decorated-element {
+  display: block;
+}

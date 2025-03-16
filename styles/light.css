@@ -37,4 +37,8 @@
     --text-color-title-block: #353430;
     --text-color-block: #353430;
   }
+
+  .decorated-element {
+    display: none;
+  }
 }
